@@ -1,2 +1,1 @@
-# photofolio
-Demonstration. Python Flask
+# On the main page, hold shift + a + d to activate authorization. Enter admin password to open the photo adding page

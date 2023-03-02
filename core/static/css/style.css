@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@700&family=Montserrat:wght@100;500;600;800;900&display=swap');
+
+body {
+    background-color: #E7E7E7;
+}
+
+.container {
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.navbar {
+    background-color: #E7E7E7;
+    font-family: 'Jura', sans-serif;
+}
+
+.navbar-toggler {
+    border: 0;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+.card {
+    --bs-card-border-width: 0;
+}
+
+.photos {
+    height: 100%;
+    cursor: pointer;
+    filter: grayscale(100%);
+    transition: 0.5s;
+}
+
+.photos:hover {
+    scale: 1.03;
+    filter: grayscale(0%);
+}
+
+#fullpage {
+    display: none;
+    opacity: 0;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat no-repeat;
+    background-position: center center;
+    background-color: rgba(0, 0, 0, 0.856);
+    cursor: pointer;
+    transition: opacity 1s ease;
+}
+
+.modal-title {
+    font-size: 25px;
+}
+
+.modal-content {
+    border-radius: 0;
+    font-family: 'Jura', sans-serif;
+}
+
+.modal-footer {
+    border: 0;
+}
+
+.form-control {
+    border: #fff;
+    border-radius: 0;
+    font-size: 20px;
+}
+
+.btn {
+    color: #000;
+    background-color: #fff;
+    border-radius: 0;
+    border-color: #000;
+    --bs-btn-hover-bg: #000;
+    --bs-btn-hover-border-color: #000;
+}
+
+
+/* About */
+.about-h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.about-text {
+    font-family: 'Jura', sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.mark {
+    color: #fff;
+    background-color: #000;
+}
